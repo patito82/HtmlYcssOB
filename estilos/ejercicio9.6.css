@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+.btn-modern:hover{
+    animation: boton 0.4s;
+    box-shadow:4px 4px 2px 1px grey;
+    background-color: black;
+    color: white;
+}
+@keyframes boton{
+    0%{
+    }
+    100%{
+        transform: translateY(-5px);
+        
+    }
+}

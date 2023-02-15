@@ -1,0 +1,122 @@
+.padre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #161717;
+    color: white;
+}
+h3{
+    font-weight: 800;
+    font-size: 16pt;
+}
+.bt-register{
+    width: 80%;
+    display: flex;
+}
+.bt-g{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#22A9FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 12pt;
+    height: 10px;
+    padding: 20px;
+    padding-left: 2px;
+    gap: 10px;
+    cursor:grab;
+}
+img{
+    height: 35px;
+    padding: 1px;
+    border-radius: 5px;
+}
+.bt-t{
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.separador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+hr{
+    width: 300px;
+    height: 1px;
+    background-color: #939c93;
+}
+h5{
+    margin: 5px;
+    color:  #939c93;
+}
+.section-1{
+    display: flex;
+    align-items: flex-start;
+}
+.caja1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px ;
+}
+
+.username ,.name{
+    border: none;
+    background-color:#212121;
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+}
+.username:hover ,.name:hover{
+    opacity: 0.7;
+    background-color: #454045;
+}
+.username:focus ,.name:focus{
+    opacity: 0.7;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+}
+.email, .password{
+    border: none;
+    border-radius: 8px;
+    background-color: #212121;
+    width: 350px;
+    height: 30px;
+}
+.email:hover, .password:hover{
+    opacity: 0.7;
+    background-color: #454045;
+}
+.email:focus, .password:focus{
+    opacity: 0.7;
+}
+input::placeholder{
+    font-size: 12pt;
+    padding-left: 10px;
+}
+.aceptar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox{
+
+}
+label{
+    font-weight: 700;
+    font-size: 14pt;
+}
+.bt-crear{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(236, 0, 181);
+}
+

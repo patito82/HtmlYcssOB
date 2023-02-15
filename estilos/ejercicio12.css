@@ -1,0 +1,121 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.primer-section{
+    display: flex;
+    justify-content: center;
+}
+.jumbotrom{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #999;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 100px 35px;
+    border-radius: 5px;
+    background-color: #e9ecef ;
+    width: 50%;
+    color: #212529;
+}
+.title-jumbo{
+    font-size: 28pt;
+    font-weight: 700;
+    margin: 10px 2px;
+}
+.p-jumbo{
+    font-size: 14pt;
+}
+.p-negrita{
+    font-size: 8pt;
+}
+.btn-jumbo{
+    display: flex;
+    justify-content: center;
+    font-size: 8pt;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color:#007bff;
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+    width: 10em;
+}
+.ventana-modal{
+    border: 1px solid #222;
+    background-color: #e9ecef;
+    width: 30%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 140px;
+    visibility: hidden;
+}
+.btn-cerrar{
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 8pt;
+    border-radius: 5px;
+}
+.ventana-modal:target{
+    visibility: visible;
+    top:150px;
+    transition: 1s;
+}
+.segunda-section{
+    border: 1px solid #88a;
+    padding: 30px 10px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    margin: 10px 5px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-weight: 500;
+    margin: 5px;
+}
+input, textarea{
+    padding: 5px;
+    font-weight: 400;
+}
+input:hover ,textarea:hover{
+    background-color: rgb(60, 66, 66);
+    color: white;
+}
+input:focus ,textarea:focus{
+    background-color: rgb(60, 66, 66);
+    color: white;
+}
+.tarjeta{
+    border: 1px solid #88a;
+    width: 50%;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}
+.descripcion-tj{
+    padding: 5px;
+}
+.footer-tj{
+    background-color:#b7b9bb;
+    width: 100%;
+    height: 2em;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

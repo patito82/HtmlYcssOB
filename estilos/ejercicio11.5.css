@@ -1,0 +1,7 @@
+.row{
+    margin: 0.25rem;
+}
+.col-xs, .col-sm, .col-lg, .col-md, .col-xl, .col-xxl{
+    padding: 5px;
+    border: 1px solid #333;
+}
